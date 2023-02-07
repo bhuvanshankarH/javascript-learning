@@ -52,3 +52,60 @@
 
 // NOTE : in javascript all the non zero(0) data is returned as true and all the(zeros) are converted in to(false)
 
+// Arithmetic Operators 
+
+
+// Addition => Adding a two or more numbers    + 
+// Substraction => substracting the numbers between each other  -
+// Multiplication => Multiplies between 2 numbers    *
+// Division => divides the given number  /
+// Modulus => it takes only the remainder from the divider  %
+// incremental operator a++ = a + 1
+// decrement operator a-- = a - 1 
+// 2**3 = 2 to the power 3 = 8
+
+
+// let age = 21;
+// let mygoal = 1;
+// let rich = age + mygoal;
+// console.log(rich);
+
+// !!! conditional operators !!!
+
+// it applies certain condition to the program 
+
+// == it represents as equality operator 
+// === it represnts strict equality operator 
+// > it represent greater than sign 
+// < it represents lesser than sign 
+//  >= it represents if greater or equals to the value
+// <= it represents if lesser or equal to the value 
+
+
+// !!!!!  Logical operator !!!!
+
+// && and 1 and 1 = 1 and 0 and 0 = 0 others are 0
+// || if one value 1 it return true and also 1 and 1 = false 0
+// ! it gives only opposite result 
+
+
+// conditional statements 
+
+// simple vote eligible calculator logic 
+
+// let age = prompt(Number('What is your age'));
+// if (age == 18) {
+//     alert("you are eligible for voting");
+// } else if (age < 10) {
+//     alert("get back home kiddo")
+// } else if (age >= 18) {
+//     alert("Welcome bruh");
+// } else {
+//     alert(' are you a human :)')
+// }
+
+// Ternary operator
+
+// let age = 18;
+// age >= 18 ? console.log("im working") : console.log('bye bye good bye ')
+
