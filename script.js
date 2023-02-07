@@ -20,4 +20,35 @@
 
 //  variable should not be assigned with keyword
 
+// Data Types in Javascript 
+
+// numbers 
+// booleans
+// Float
+// string 
+// objects and 
+//  Arrays 
+
+// javascript is not a typed language so it does not require to add what type of data is stored in that varaible like c and java 
+// we can also find the type of an data by using typeof keyword 
+
+// let person = "bhuvan";
+// console.log(typeof (person));
+
+//             !!!Type conversion in javascript !!!
+
+//  as javascript is not a typed language we can convert one form of data to another
+
+// let person = "bhuvan"
+// console.log(Number(person));
+
+//  A quick note we cannot convert a string to a number it always return Nan (Not a number)
+
+// let age = 21;
+// console.log(String(age));
+// console.log(typeof (age))
+
+//  Boolean conversion 
+
+// NOTE : in javascript all the non zero(0) data is returned as true and all the(zeros) are converted in to(false)
 
