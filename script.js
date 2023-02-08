@@ -109,3 +109,132 @@
 // let age = 18;
 // age >= 18 ? console.log("im working") : console.log('bye bye good bye ')
 
+//  !!!!! Loops in javascript 
+
+// for loop 
+
+// for (let i = 0; i <= 10; i++) {
+//     console.log(i);
+// }
+
+//  While Loop
+
+// let i = 0;
+// let n = 10;
+// while (i < n) {
+//     console.log("hello", i);
+//     i++;
+// }
+
+
+//  Do while loop
+
+let i = 0;
+// let n = 10;
+// do {
+//     console.log("Hello", i);
+//     i++;
+
+// } while (i < n)
+//     ;
+
+
+// How to break in a loop using condition ;
+
+// differnecce between break and continue
+// in break the iteration stops with that
+// in continue the condtioned iteration is ignored and the next iteration starts
+
+// for (let i = 0; i < 10; i++) {
+//     if (i == 3) {
+//         break
+//     }
+//     console.log("Bye")
+//         ;
+
+// }
+
+// for (let i = 0; i < 10; i++) {
+//     if (i == 3) {
+// continue
+//     }
+//     console.log("Bye", i)
+//         ;
+
+// }
+
+// advanced continue program lol!!!!
+
+// for (let i = 0; i < 10; i++) {
+//     if (i == 3 || i == 6) {
+//         continue
+//     }
+//     console.log("Mission accomplished", i)
+
+// }
+
+
+//  !!!!! Most important concept Arrays
+
+const names = ['Bhuvan', 'shankar', "rocky", "prem"];
+// // names.pop();  // pop function removes the "last element" from the arrays
+// // names.push("rivan")  // push function adds this element to the "last element" of the arrays
+// // names.shift(); // removes the first element in the array
+// // names.unshift() // adds to the first element
+// names.sort(); // it sorts the element
+// console.log(names.includes("Bhuvan"));  it return boolean
+// console.log(names.indexOf("Bhuvan")); // show the index of the element
+// names.splice(2, 1, "Bhuvan", "prem");  // refer mdn
+// console.log(names)
+
+
+// bonus !! For in
+
+// let persons = ['Bhuvan', 'shankar', "rocky", "prem"];
+// for (let person in persons) {
+//     console.log("Hello", persons[person]);
+// }
+
+
+//     !!!!!functions
+
+// function is a block of code which runs when we call it
+// let name = "Bhuvan"
+// function greeting(name) {
+//     console.log('hi' + name);
+// }
+// greeting("bhuvan")
+
+// Addition function
+
+// function addition(a, b) {
+//     // return a + b;    // after writing return the function will get out like break statment
+// }
+// let result = addition(3, 4);
+// console.log(result);
+
+
+//  Interesting stuff in javascript :)  Anonymous Function
+
+// we can pass a function in variable and treat it like a variable
+
+// let add = function (a, b) {
+//     // console.log(a + b);
+//     return a + b;
+// }
+// console.log(add(3, 7))
+
+// let newone = (a, b) => {
+//     return a + b;
+// }
+// console.log(newone(3, 5))
+
+//  ForEach method 
+
+// let element = 0;
+// let arr = [3, 4, 5, 6, 7, 8, 9];
+// arr.forEach((el) => {
+//     element += el;
+//     console.log(element)
+
+// })
